@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("https://cdn.thomasnet.com/insights-images/ea367e26-7faf-440a-a927-73e312329967/750px.png") no-repeat fixed;
+    background-size: cover;
+}
+a, a:hover{
+ color: black;
+ text-decoration: none;
+}
+
+html{
+    font-family: 'Open Sans',sans-serif;
+}
+
+footer{                
+    height: 7rem;                      
+}
+
+header[class="acik-tema"]{
+    background: rgb(212, 202, 202);
+    border-radius: 8px;
+}
+
+.hyx-baslik{
+    background: rgb(212, 202, 202);
+    font-size: 3em;
+    position: fixed;
+    margin-left: 7em;
+    border-radius: 7px;
+    z-index: 1;
+}
+
+#baslik i {
+    color: azure;
+}
+
+.bg-dark-blue{
+    background: rgb(212, 202, 202);
+}
+
+div[class="index"]{
+    min-height: calc(100vh - 7rem);
+}
+
+div[class="index2"]{
+    min-height: calc(100vh - 7rem);
+}
+
+
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;  
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a{
+    padding: 1rem;
+    overflow: hidden;
+}
+
+#navbar ul li a:hover{
+    background: azure;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+#navbar ul li a:nth-child(1){
+    margin-left: 5em;
+}
+
+div[class="index"] {
+    margin-top: 5em;
+}
+
+div[class="basvuru-login"] {
+    display: flex;
+    flex-direction: column;
+}
+
+div[class="basvuru-login"] p{
+    margin-left: 5em;
+    background: #fff;
+    border-radius: 7px;
+    font-weight:normal;
+    font-size: 1.2em;
+    opacity: 0.9;
+    padding: 2em;
+    margin-right: 8em;
+    margin-bottom: 1em;
+    z-index: 0;
+}
+
+div[class="basvuru-login"] p:nth-child(1){
+    padding-bottom: 2em;
+    flex-direction: row;
+}
+
+div[class="program-1"] {
+    margin-left: 5em;
+    background: #fff;
+    border-radius: 7px;
+    font-weight:normal;
+    font-size: 1.2em;
+    opacity: 0.9;
+    padding: 2em;
+    padding-bottom: 1em !important;
+    margin-right: 8em;
+    margin-bottom: 1em;
+    z-index: 0;
+    padding-bottom: 7em;
+    flex-direction: row;
+}
+
+div[class="program-1"] p {
+    margin-left: 20em;
+    font-size: 1.5em;
+    flex-direction: row;
+    margin-top: -9em;
+}
+
+div[class="program-1"] button {
+    margin-left: 60em;
+    margin-top: 5em;
+    padding: 2em;
+    margin-bottom: 0;
+    background: lightgray;
+    font-weight: bold;
+    border-width: 0.1em;
+    border-radius: 4px;
+}
+
+div[class="program-1"] button:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+div[class="program-1"] button:active{
+    cursor: pointer;
+    background: lightgray;
+}
+div[class="program-1"] button:visited {
+    cursor: pointer;
+    background: lightgray;
+}
+
+div[class="program-1"]:hover {
+    background: rgb(212, 202, 202);
+}
+
+div[class="program-1"] img{
+    width: 25em;
+    height: 15em;
+    flex-direction: row;
+    padding-bottom: 2em;
+}
+
+div[class="basvuru-login"] p:hover{
+    background: rgb(212, 202, 202);
+}
+
+/* FOOTER */
+#contact{
+    padding: 1rem;
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self:flex-start;
+}
+
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover{
+    opacity: 0.8;
+}
